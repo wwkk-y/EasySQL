@@ -13,9 +13,15 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+        </dependency>
+    </dependencies>
+
     <packaging>jar</packaging>
-
-
 
     <build>
         <plugins>
@@ -36,7 +42,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.easysql.EasySqlApplication</mainClass> <!-- 替换为你的主类 -->
+                            <mainClass>com.EasySQL.EasySqlApplication</mainClass> <!-- 主类 -->
                         </manifest>
                     </archive>
                 </configuration>

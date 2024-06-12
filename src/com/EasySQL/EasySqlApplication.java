@@ -1,4 +1,4 @@
-package com.easysql;
+package com.EasySQL;
 
 
 public class EasySqlApplication {
